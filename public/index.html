@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Migo · Travel AI Companion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-wrapper">
+      <div class="chat-card">
+
+        <!-- Header -->
+        <header class="chat-header">
+          <div class="migo-avatar">M</div>
+          <div>
+            <h1 class="chat-title">Migo</h1>
+            <p class="chat-subtitle">Your smart, budget-aware travel AI companion</p>
+          </div>
+        </header>
+
+        <!-- Chat Messages -->
+        <main id="chat-messages" class="chat-messages">
+          <!-- Migo intro injected by JS -->
+
+          <!-- ↓↓↓ Suggested Prompts placed UNDER the intro ↓↓↓ -->
+          <section id="suggested-prompts" class="chat-suggestions hidden">
+            <p class="chat-suggestions-title">Try asking:</p>
+            <div class="chat-suggestions-row">
+              <button
+                type="button"
+                class="suggestion-pill"
+                data-prompt="Plan a 1 day peaceful trip to Bangalore under 1500 and tell me the weather"
+              >
+                1-day peaceful trip to Bangalore
+              </button>
+
+              <button
+                type="button"
+                class="suggestion-pill"
+                data-prompt="Suggest 5 tourist attractions near Hyderabad"
+              >
+                Attractions near Hyderabad
+              </button>
+
+              <button
+                type="button"
+                class="suggestion-pill"
+                data-prompt="I’m going to Kolkata today, what’s the temperature and chance of rain there?"
+              >
+                Weather in Kolkata today
+              </button>
+            </div>
+          </section>
+        </main>
+
+        <!-- Input Row -->
+        <form id="message-form" class="chat-input-row">
+          <input
+            id="user-input"
+            type="text"
+            placeholder="Ask Migo something..."
+            autocomplete="off"
+          />
+          <button id="send-button" type="submit">
+            Send
+          </button>
+        </form>
+
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,4 +1,6 @@
 Migo · Multi-Agent Travel AI Companion
+
+
 Live → https://migo-travelai.vercel.app
 ![Migo AI in action](demo.gif)
 

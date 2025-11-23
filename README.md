@@ -14,8 +14,9 @@ Ask Migo things like:
 
 - `Plan a calm 1 day trip to Mysore under 1200 and tell me the weather and places I should visit.`
 - `Suggest 5 tourist attractions near Bangalore`
-- `I’m going to Kolkata tomorrow, what’s the temperature and chance of rain there?`
+- `I’m going to Kolkata, what’s the temperature and chance of rain there?`
 - `Plan a 1 day trip to Pondicherry under 900`
+- `Plan a itenary to Dandeli under 5000`
 
 Migo will:
 
